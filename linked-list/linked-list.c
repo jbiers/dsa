@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// TODO: make 'printListRecursive' 'printListIterative' testable by returning array
+// TODO: add unit tests
+
 struct Node {
     int val;
     struct Node *next;
